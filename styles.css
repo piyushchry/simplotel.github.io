@@ -1,0 +1,196 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+   background-color: rgb(248, 102, 102);
+   width: 100%;
+   height: 5rem;
+   align-items: center;
+   display: flex;
+}
+
+.navbar-2{
+   position: relative;
+   width: 90%;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+}
+
+.but{
+    color: black;
+    border: none;
+    background: none;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.but:hover{
+    background-color: pink;
+}
+
+.menu-image{
+    position: relative;
+    height: 2rem;
+}
+
+.content{
+    background-image: linear-gradient(to right, rgb(240, 240, 185), rgb(166, 86, 166));
+    display: inline-flex;
+    position: relative;
+    height: 53rem;
+}
+.content0{
+    position:relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.content1{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+    width: 50%;
+}
+.heading{
+    letter-spacing: 0rem;
+    top: 2rem;
+    padding: .13rem;
+    margin: auto;
+    display: block;
+    width:100%;
+    position: relative;
+    font-family: sans-serif;
+}
+.info{
+    top: 2rem;
+    position: relative;
+    padding: .13rem;
+    margin: auto;
+    font-size: 1.5rem;
+    display: block;
+    width:100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.clickbut{
+    margin: .13rem;
+    background-color:rgb(248, 102, 102) ;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    width: 15rem;
+    height: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 2rem;
+}
+.clickbut:hover{
+    background-color: pink;
+}
+
+.content2{
+    display: inline-flex;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.image1{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page2{
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    top: 1rem;
+    height: 78rem;
+    background-image: linear-gradient(to right, rgb(240, 240, 185), rgb(166, 86, 166));
+}
+
+.left{
+    align-items: center;
+    width:50%;
+    position:relative;
+}
+.images{
+    top: 5rem;
+    position: relative;
+    width:90%;
+    height: 80%;
+    margin: auto;
+    gap: 0rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap:0rem;
+    width:47%;
+    height: 97%;
+}
+.img2{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    position: relative;
+    width:47%;
+    height: 97%;
+    gap: 0rem;
+}
+
+.imgt1{
+    position: relative;
+    width: 100%;
+    height:50%;
+}
+.imgt2{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.right{
+    align-items: center;
+    width:50%;
+    position:relative; 
+}
+.info2{
+    font-family: sans-serif;
+    position: relative;
+    top:30%;
+    margin: auto;
+    background-color:rgb(248, 102, 102) ;
+    width:60%;
+    height:40%;
+}
+.smhead{
+    padding-left: 5%;
+}
+
+@media(max-width:998px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(min-width:400px) and (max-width:768px){
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:460px)
